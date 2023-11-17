@@ -979,6 +979,9 @@ hr {
     margin-top: 120px;
     transition: all 0.3s ease 0s;
 }
+.counter .content .count-item:hover strong {
+    margin-top: 110px;
+}
 .counter .content .count-item span {
     display: block;
     text-align: center;
@@ -988,6 +991,16 @@ hr {
     letter-spacing: 0.25px;
 }
 .counter .content .count-item.decoration-bottom:after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 32px;
+    top: 160px;
+    left: 70%;
+    background: url(../img/circle-dec.png) center center no-repeat;
+    transition: all 0.3s ease 0s;
+}
+.counter .content .count-item.decoration-top:after {
     content: '';
     position: absolute;
     width: 70%;
